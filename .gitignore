@@ -1,0 +1,6 @@
+# Project exclude paths
+/target/
+/frontend/
+frontend-log.txt
+.idea
+*.iml
