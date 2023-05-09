@@ -30,7 +30,7 @@
         <dependency>
             <groupId>com.github.Puroktor.ui-generator</groupId>
             <artifactId>ui-generator-spring-boot-starter</artifactId>
-            <version>304bba75</version>
+            <version>master-SNAPSHOT</version>
         </dependency>
 <!--        <dependency>-->
 <!--            <groupId>ru.vsu.csf.skofenko</groupId>-->
