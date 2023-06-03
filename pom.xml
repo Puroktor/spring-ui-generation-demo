@@ -32,11 +32,6 @@
             <artifactId>ui-generator-spring-boot-starter</artifactId>
             <version>master-SNAPSHOT</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>ru.vsu.csf.skofenko</groupId>-->
-<!--            <artifactId>ui-generator-spring-boot-starter</artifactId>-->
-<!--            <version>1.0.0</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
