@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
 import ru.vsu.csf.skofenko.ui.generator.spring.annotation.DisplayName;
+import ru.vsu.csf.skofenko.ui.generator.spring.annotation.NumberField;
 
 import java.util.List;
 
@@ -15,6 +16,7 @@ import java.util.List;
 @Builder
 public class TestDto1 {
     @DisplayName("ID description")
+    @NumberField(min = 0, max = Integer.MAX_VALUE)
     private int id;
     private HttpStatus status;
     private List<String> textList;
