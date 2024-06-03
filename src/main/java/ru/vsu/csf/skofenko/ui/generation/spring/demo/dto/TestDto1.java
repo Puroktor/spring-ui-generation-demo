@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
+import ru.vsu.csf.skofenko.ui.generator.spring.annotation.DateField;
 import ru.vsu.csf.skofenko.ui.generator.spring.annotation.DisplayName;
 import ru.vsu.csf.skofenko.ui.generator.spring.annotation.NumberField;
 
@@ -22,6 +23,8 @@ public class TestDto1 {
     private List<String> textList;
     @DisplayName("Flag Description")
     private boolean flag;
+    @DateField("yyyy/MM/dd")
+    private String customDate;
     @DisplayName("Inner DTO")
     private TestDto2 testDto2;
 }
